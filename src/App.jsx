@@ -12,11 +12,11 @@ const App = () => {
 
   const posts = [
     { id: 1, type: 'public', img: '/assets/bundle5.png', likes: '5.1k', comments: '310', date: '5h ago' },
-    { id: 2, type: 'locked', img: '/assets/bundle6.png', price: '50k $FOOT', date: '8h ago' },
+    { id: 2, type: 'public', img: '/assets/bundle6.png', likes: '12.4k', comments: '840', date: '8h ago' },
     { id: 3, type: 'public', img: '/assets/bundle2.png', likes: '1.2k', comments: '88', date: '1d ago' },
-    { id: 4, type: 'locked', img: '/assets/bundle7.png', price: '100k $FOOT', date: '2d ago' },
+    { id: 4, type: 'public', img: '/assets/bundle7.png', likes: '18.9k', comments: '1.2k', date: '2d ago' },
     { id: 5, type: 'public', img: '/assets/bundle3.png', likes: '3.9k', comments: '205', date: '3d ago' },
-    { id: 6, type: 'locked', img: '/assets/bundle8.png', price: 'Vault Access', date: '4d ago' },
+    { id: 6, type: 'public', img: '/assets/bundle8.png', likes: '25.6k', comments: '2.1k', date: '4d ago' },
   ];
 
   return (
@@ -24,7 +24,7 @@ const App = () => {
       {/* Sidebar */}
       <aside className="sidebar">
         <div className="logo-section">
-          <h1 style={{ color: 'var(--of-blue)', fontSize: '28px', fontWeight: '900', trackingTighter: '-0.05em' }}>$Foot</h1>
+          <h1 style={{ color: 'var(--of-blue)', fontSize: '28px', fontWeight: '900', trackingTighter: '-0.05em' }}>Foot</h1>
         </div>
         
         <nav className="nav-list">
@@ -52,7 +52,7 @@ const App = () => {
       {/* Main Content */}
       <main className="main-content">
         <div className="header-top">
-          <div style={{ fontWeight: '800', fontSize: '19px' }}>Arch Queen</div>
+          <div style={{ fontWeight: '800', fontSize: '19px' }}>Archer Queen</div>
         </div>
 
         <div className="profile-banner">
@@ -61,22 +61,22 @@ const App = () => {
 
         <div className="profile-avatar-container">
           <div className="avatar">
-            <img src="/assets/hero.png" alt="Arch Queen Avatar" />
+            <img src="/assets/hero.png" alt="Archer Queen Avatar" />
           </div>
           <button className="edit-profile-btn">Edit Profile</button>
         </div>
 
         <div className="profile-info">
           <div className="profile-name-row">
-            <h2 style={{ fontSize: '20px', fontWeight: '800' }}>Arch Queen</h2>
+            <h2 style={{ fontSize: '20px', fontWeight: '800' }}>Archer Queen</h2>
             <CheckCircle className="verified-badge" size={20} fill="currentColor" />
           </div>
-          <div className="handle">@arch_queen</div>
+          <div className="handle">@archer_queen</div>
           
           <div className="bio">
-            The only official destination for Arch Queen tributes. 👸✨
+            The only official destination for Archer Queen tributes. 👸✨
             👑 100% Cultured Content
-            💎 Holder of the $FOOT Crown
+            💎 Holder of the Foot Crown
             🚀 To the moon on Pump.fun
           </div>
 
@@ -102,7 +102,7 @@ const App = () => {
                 </div>
                 <div>
                   <div style={{ fontWeight: '700', fontSize: '15px' }}>
-                    Arch Queen <CheckCircle className="verified-badge" size={14} fill="currentColor" />
+                    Archer Queen <CheckCircle className="verified-badge" size={14} fill="currentColor" />
                   </div>
                   <div style={{ color: 'var(--of-text-secondary)', fontSize: '13px' }}>{post.date}</div>
                 </div>
@@ -162,7 +162,7 @@ const App = () => {
         <div style={{ padding: '16px', fontSize: '12px', color: 'var(--of-text-secondary)' }}>
           © 2026 ONLYFOOT
           <br />
-          All rights reserved to the Arch Queen.
+          All rights reserved to the Archer Queen.
         </div>
       </aside>
     </div>
