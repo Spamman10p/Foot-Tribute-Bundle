@@ -24,7 +24,7 @@ const App = () => {
       {/* Sidebar */}
       <aside className="sidebar">
         <div className="logo-section">
-          <h1 style={{ color: 'var(--of-blue)', fontSize: '28px', fontWeight: '900', trackingTighter: '-0.05em' }}>Foot</h1>
+          <h1 style={{ color: 'var(--of-blue)', fontSize: '28px', fontWeight: '900', trackingTighter: '-0.05em' }}>Only Foot</h1>
         </div>
         
         <nav className="nav-list">
